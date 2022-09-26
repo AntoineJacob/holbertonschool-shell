@@ -1,2 +1,2 @@
 #!/bin/bash
-groups root
+groups root@dc241bafad1b
