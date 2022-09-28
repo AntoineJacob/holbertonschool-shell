@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | head | cut -f 5- 
+ls -lt | head -n 11 | tail | cut -c 40- 
