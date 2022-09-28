@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -mmin -10 -ls 
+ls -lt | head | cut -f 8 
